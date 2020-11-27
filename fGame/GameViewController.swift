@@ -5,12 +5,12 @@
 //  Created by Admin on 27.11.2020.
 //
 
-import UIKit
-import QuartzCore
+//import UIKit
+//import Q		uartzCore
 import SceneKit
 
 class GameViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,7 +23,7 @@ class GameViewController: UIViewController {
         scene.rootNode.addChildNode(cameraNode)
         
         // place the camera
-        cameraNode.position = SCNVector3(x: 0, y: 0, z: 15)
+        cameraNode.position = SCNVector3(x: 0, y: 0, z: 50)
         
         // create and add a light to the scene
         let lightNode = SCNNode()
